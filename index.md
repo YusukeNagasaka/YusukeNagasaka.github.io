@@ -2,13 +2,14 @@
 layout: default
 ---
 
-<!--I'm a Ph.D Student at Dept. of Mathematical and Computing Science, Tokyo Institute of Technology.-->
+<!--I was a Ph.D Student at Dept. of Mathematical and Computing Science, Tokyo Institute of Technology.-->
 
 # Research Interests
 
 > Acceleration of Sparse Matrix Computation on Many-core Processors
 *   Sparse Matrix Vector Multiplication (SpMV)
 *   Sparse General Matrix-Matrix Multiplication (SpGEMM)
+*   Sparse-Dense Matrix Multiplication (SpMM)
 
 > Random Number Generator
 *   Multiple Recursive Generator with 8th-order Full Primitive Polynomials (MRG8) for Many-core Processors
@@ -29,6 +30,7 @@ layout: default
 *   Yusuke Nagasaka, Akira Nukada, Satoshi Matsuoka, Kenichi Miura, John Shalf, **"MRG8 - Random Number Generation for the Exascale Era"**, The Platform for Advanced Scientific Computing Conference (PASC18), Basel, Switzerland, 2018. [[DOI](https://dl.acm.org/citation.cfm?id=3218230)] [[Slides](./material/slides/20180703_pasc18_nagasaka.pdf)]
 *   Yusuke Nagasaka, Satoshi Matsuoka, Ariful Azad and Aydın Buluç, **"High-performance sparse matrix-matrix products on Intel KNL and multicore architectures"**, International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), held in conjunction with ICPP 2018, Eugene, Oregon, USA, 2018. [[DOI](https://doi.org/10.1145/3229710.3229720)] [[Slides](./material/slides/201808_p2s2_spgemm.pdf)]
 *   Yusuke Nagasaka, Akira Nukada, Ryosuke Kojima, Satoshi Matsuoka, **"Batched Sparse Matrix Multiplication for Accelerating Graph Convolutional Networks"**, The 19th Annual IEEE/ACM International Symposium in Cluster, Cloud, and Grid Computing (CCGrid 2019), Larnaca, Cyprus, 2019. [[Slides](./material/slides/20190515_ccgrid_batched_spmm.pdf)]
+*   Yusuke Nagasaka, Satoshi Matsuoka, Ariful Azad and Aydın Buluç, **"Performance optimization, modeling and analysis of sparse matrix-matrix products on multi-core and many-core processors"**, The Journal of Parallel Computing (PARCO), 2019. [[DOI](https://doi.org/10.1016/j.parco.2019.102545)]
 *   長坂侑亮, 額田彰, 松岡聡, **"GPUのキャッシュを考慮した疎行列ベクトル積計算手法の性能評価"**, 情報処理学会研究報告 HPC-144, 横浜, 2014年5月. [[DOI](http://id.nii.ac.jp/1001/00101379/)]
 *   長坂侑亮, 額田彰, 松岡聡, **"疎行列ベクトル積計算を対象としたGPU向けメモリアクセス削減手法"**, 情報処理学会研究報告 HPC-151, 那覇, 2015年9月. [[DOI](http://id.nii.ac.jp/1001/00145058/)]
 *   長坂侑亮, 額田彰, 松岡聡, **"メモリ使用量を抑えた疎行列疎行列積計算のGPU高速化"**, 情報処理学会研究報告 HPC-156, 小樽, 2016年9月. [[DOI](http://id.nii.ac.jp/1001/00174439/)]
@@ -42,7 +44,7 @@ layout: default
 *   Yusuke Nagasaka, **"Fast Sparse Matrix Vector Multiplication with Highly-Compressed Sparse Format"**, GPU Technology Conference (GTC2016), San Jose, CA, USA, April 2016. [[Link](http://on-demand.gputechconf.com/gtc/2016/posters/GTC_2016_Algorithms_AL_09_P6132_WEB.pdf)]
 *   Yusuke Nagasaka, Akira Nukada and Satoshi Matsuoka, **"Fast Sparse General Matrix-Matrix Multiplication on GPU with Low Memory Usage"**, The International Conference for High Performance Computing, Networking, Storage and Analysis (SC16) Technical Program Posters, Salt Lake City, Utah, USA, November 2016. [[Link](http://sc16.supercomputing.org/sc-archive/tech_poster/tech_poster_pages/post180.html)]
 *   Yusuke Nagasaka, **"Fast and Memory-saving SpGEMM Algorithm for New Pascal Generation GPU"**, GPU Technology Conference (GTC2017), San Jose, CA, USA, May 2017. [[Link](http://www.gputechconf.com/resources/poster-gallery/2017/algorithms)]
-*   Yusuke Nagasaka, **"Boosting GCN Application with Batched Sparse Matrix Multiplication"**, GPU Technology Conference (GTC2019), San Jose, CA, USA, March 2019. <!--[<a href="">Link</a>]-->
+*   Yusuke Nagasaka, **"Boosting GCN Application with Batched Sparse Matrix Multiplication"**, GPU Technology Conference (GTC2019), San Jose, CA, USA, March 2019. [[Link](https://www.nvidia.com/en-us/gtc/poster-gallery/hpc-and-supercomputing/)]
 *   長坂侑亮, **"GPUでのキャッシュ再利用性を考慮した列分割型疎行列フォーマットの性能評価"**, GPU テクノロジ・カンファレンス(GTC Japan 2014), 東京, 2014年7月.
 *   長坂侑亮, **"多段階ブロッキングによるメモリアクセス量削減を図ったGPU向け疎行列ベクトル積計算手法の性能評価"**, GPU テクノロジ・カンファレンス(GTC Japan 2015), 東京, 2015年9月.
 *   Yusuke Nagasaka, **"MRG8 - High Throughput Random Number Generation for GPU"**, GPU テクノロジ・カンファレンス(GTC Japan 2018), 東京, 2018年9月.
@@ -64,6 +66,13 @@ layout: default
 Fast Sparse Matrix Library for GPU. Supporting SpMV with AMB format and Hash-table based SpGEMM.  
 [GitHub Link](https://github.com/EBD-CREST/nsparse)
 
+### mtspgemm
+Fast SpGEMM kernel for Multi-thread CPUs (mainly for Intel KNL)
+[Bitbucket Link](https://bitbucket.org/YusukeNagasaka/mtspgemmlib)
+
+### Batched SpMM
+Batched sparse-dense matrix multiplication kernel between small matrices for GPU
+[GitHub Link](https://github.com/YusukeNagasaka/Batched-SpMM)
 
 # Experiences
 ### Joint Research
