@@ -58,11 +58,12 @@ layout: default
 
 ### Awards
 *   2015年度情報処理学会コンピュータサイエンス領域奨励賞. [[Link](https://www.ipsj.or.jp/award/cs-awardee-2015.html)]
+*   2019年度情報処理学会山下記念研究賞. [[Link](https://www.ipsj.or.jp/award/yamasita2019-detail.html)]
 
 
 # Software
 
-### nsparse 
+### nsparse
 Fast Sparse Matrix Library for GPU. Supporting SpMV with AMB format and Hash-table based SpGEMM.  
 [GitHub Link](https://github.com/EBD-CREST/nsparse)
 
@@ -111,5 +112,3 @@ April 2016 - March 2019
 
 # Contact
 > E-mail: nagasaka.mlab [at] gmail.com
-
-
