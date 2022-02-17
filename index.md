@@ -14,6 +14,9 @@ layout: default
 > Random Number Generator
 *   Multiple Recursive Generator with 8th-order Full Primitive Polynomials (MRG8) for Many-core Processors
 
+> Machine Learning
+*   Scikit-learn
+
 # Publication
 
 ### Lists
@@ -31,6 +34,8 @@ layout: default
 *   Yusuke Nagasaka, Satoshi Matsuoka, Ariful Azad and Aydın Buluç, **"High-performance sparse matrix-matrix products on Intel KNL and multicore architectures"**, International Workshop on Parallel Programming Models and Systems Software for High-End Computing (P2S2), held in conjunction with ICPP 2018, Eugene, Oregon, USA, 2018. [[DOI](https://doi.org/10.1145/3229710.3229720)] [[Slides](./material/slides/201808_p2s2_spgemm.pdf)]
 *   Yusuke Nagasaka, Akira Nukada, Ryosuke Kojima, Satoshi Matsuoka, **"Batched Sparse Matrix Multiplication for Accelerating Graph Convolutional Networks"**, The 19th Annual IEEE/ACM International Symposium in Cluster, Cloud, and Grid Computing (CCGrid 2019), Larnaca, Cyprus, 2019. [[Slides](./material/slides/20190515_ccgrid_batched_spmm.pdf)]
 *   Yusuke Nagasaka, Satoshi Matsuoka, Ariful Azad and Aydın Buluç, **"Performance optimization, modeling and analysis of sparse matrix-matrix products on multi-core and many-core processors"**, The Journal of Parallel Computing (PARCO), 2019. [[DOI](https://doi.org/10.1016/j.parco.2019.102545)]
+*   Yoshiya Shikama, Ryuta Kawano, Hiroki Matsutani, Hideharu Amano, Yusuke Nagasaka, Naoto Fukumoto, Michihiro Koibuchi **"Low-Latency Low-Energy Memory-Cube Networks using Dual-Voltage Datapaths"**, 29th Euromicro International Conference on Parallel, Distributed and Network-Based Processing (PDP), 2021. [[DOI](https://ieeexplore.ieee.org/abstract/document/9407224)]
+*   Yoshiya Shikama, Ryuta Kawano, Hiroki Matsutani, Hideharu Amano, Yusuke Nagasaka, Naoto Fukumoto, Michihiro Koibuchi **"A traffic-aware memory-cube network using bypassing"**, Microprocessors and Microsystems, 2022. [[DOI](https://doi.org/10.1016/j.micpro.2022.104471)]
 *   長坂侑亮, 額田彰, 松岡聡, **"GPUのキャッシュを考慮した疎行列ベクトル積計算手法の性能評価"**, 情報処理学会研究報告 HPC-144, 横浜, 2014年5月. [[DOI](http://id.nii.ac.jp/1001/00101379/)]
 *   長坂侑亮, 額田彰, 松岡聡, **"疎行列ベクトル積計算を対象としたGPU向けメモリアクセス削減手法"**, 情報処理学会研究報告 HPC-151, 那覇, 2015年9月. [[DOI](http://id.nii.ac.jp/1001/00145058/)]
 *   長坂侑亮, 額田彰, 松岡聡, **"メモリ使用量を抑えた疎行列疎行列積計算のGPU高速化"**, 情報処理学会研究報告 HPC-156, 小樽, 2016年9月. [[DOI](http://id.nii.ac.jp/1001/00174439/)]
